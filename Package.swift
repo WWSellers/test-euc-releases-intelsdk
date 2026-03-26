@@ -24,7 +24,11 @@ let package = Package(
         .package(url: "https://github.com/euc-releases/ws1-crypto-sdk.git", from: "25.06.0")
     ],
     targets: [
-        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/WWSellers/euc-releases--ws1-intelligencesdk-sdk-ios/releases/download/26.2.0/WS1IntelligenceSDK.xcframework.zip", checksum: "e574f4cd7ed2fc9a309206c0bf73bfa82a153b0fb6f6e7309795f7ce525cb6d5"),
+        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/WWSellers/test-euc-releases-intelsdk/releases/download/26.1.1/WS1IntelligenceSDK.xcframework.zip", checksum: "e574f4cd7ed2fc9a309206c0bf73bfa82a153b0fb6f6e7309795f7ce525cb6d5"),
         .target(name: "OmnissaCryptoSDK", dependencies: [.product(name: "WS1CryptoSDK", package: "ws1-crypto-sdk")])
     ]
 )
+
+
+// git@github.com:WWSellers/test-euc-releases-intelsdk.git
+// https://github.com/WWSellers/test-euc-releases-intelsdk/releases/download/26.1.1/WS1IntelligenceSDK.xcframework.zip
